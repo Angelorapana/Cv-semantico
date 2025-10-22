@@ -1,8 +1,9 @@
 
 .profile-img{
     background-image:url(img/Immagine\ 2025-10-22\ 215945.png);
-    background-color: black;
-    background-size: cover;
+    background-size: contain;
+    width: 500px;
+    height: 500px;
 }
 
 h1{

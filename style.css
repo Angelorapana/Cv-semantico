@@ -1,12 +1,26 @@
 
 .profile-img{
     background-image:url(img/Immagine\ 2025-10-22\ 215945.png);
-    background-size: contain;
-    width: 500px;
-    height: 500px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 750px;
+    height: 250px  ;
+    width: 100% ;   
 }
 
-h1{
+
+.nome{
+    display: block;
+    margin-left: 750px;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1em   ;
+    margin-top: 0;
+    color: rgb(2, 2, 32);
+}   
+
+
+h1 {
     text-align: center;
     color: darkblue;
     font-family: 'Arial Black', sans-serif;
@@ -20,23 +34,21 @@ h1{
 
     h2 {
     color: rgb(6, 0, 9);
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Arial Black', sans-serif;
     font-size: 1.8em;       
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;        
     text-transform: uppercase;
     letter-spacing: 1.5px;  
     }
 
     p{
-    font-family: 'Georgia', serif;                  
+    font-family: 'Times New Roman', Times, serif                  
     font-size: 1.2em;
     line-height: 1.6;
-    margin-bottom: 10px;
+    margin-bottom: 6.5px;
     }
 
 hr{
-    border: 5px solid rgb(149, 183, 15);
-    margin-top: 20px;
-    margin-bottom: 20px;    
+    border:darkslategrey 2px solid;  
 }
